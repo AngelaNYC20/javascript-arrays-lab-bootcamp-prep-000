@@ -2,7 +2,7 @@
 
 function destructivelyAppendKitten (name){
   kittens.push(name);
-  return name;
+  return kittens;
 }
 
 function destructivelyPrependKitten(name) {
