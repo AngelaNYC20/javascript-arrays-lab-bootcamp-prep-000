@@ -1,12 +1,11 @@
 
-
 function destructivelyAppendKitten (name){
   kittens.push(name);
   return kittens;
 }
 
 function destructivelyPrependKitten(name) {
-  name.unshift("Bob");
+  kitten.unshift(name);
   return name;
 }
 
