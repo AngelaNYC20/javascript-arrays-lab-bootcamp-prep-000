@@ -22,3 +22,7 @@ function destructivelyRemoveFirstKitten(name){
 function appendKitten(name) {
   return [...kittens, name] //spread operator that takes the kittens array and add 'name'
 }
+
+function prependKitten(name) {
+  return [name, ...kittens];
+}
