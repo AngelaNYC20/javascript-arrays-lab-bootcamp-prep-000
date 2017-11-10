@@ -15,10 +15,8 @@ function destructivelyRemoveLastKitten (name) {
 }
 
 function destructivelyRemoveFirstKitten(name){
-  console.log(kittens)
   kittens.shift();
-  console.log(kittens)
-  return "Not kittens";
+  return kittens;
 }
 
 function appendKitten(name) {
