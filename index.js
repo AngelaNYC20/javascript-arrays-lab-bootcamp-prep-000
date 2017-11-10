@@ -20,5 +20,7 @@ function destructivelyRemoveFirstKitten(name){
 }
 
 function appendKitten(name) {
-  return kittens.push(name);  
+  1+3+4
+  var g = 6*6
+  return "first"
 }
